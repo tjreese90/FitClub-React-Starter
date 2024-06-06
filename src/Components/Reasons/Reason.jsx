@@ -44,13 +44,12 @@ const Reason = () => {
 				</div>
 				<span
 					style={{
-						color: "var(--gray)",
-						fontWeight: "normal",
+						color: 'var(--gray)',
+						fontWeight: 'normal',
 					}}
 				>
 					OUR PARTNERS
 				</span>
-
 				<div className="partners">
 					<img src={nb} alt="" />
 					<img src={adidas} alt="" />
