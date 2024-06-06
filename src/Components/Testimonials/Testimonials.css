@@ -58,12 +58,12 @@
 
 .right-t>:nth-child(2) {
     position: absolute;
-    width: 16.5rem;
+    width: 14.5rem;
     height: 19rem;
     background: var(--planCard);
     right: 7rem;
-    right: 8.5rem;
-    top: 1.3rem;
+    right: 7.5rem;
+    top: 2.3rem;
 }
 
 .arrows {
