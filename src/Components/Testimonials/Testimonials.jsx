@@ -11,7 +11,7 @@ const Testimonials = () => {
     const transition = {type: 'spring', duration: 3}
 
 	return (
-		<div className="testimonials">
+		<div className="testimonials" id='testimonials'>
 			<div className="left-t">
 				<span>Testimonials</span>
 				<span className="stroke-text">What they</span>
@@ -32,7 +32,7 @@ const Testimonials = () => {
                 </motion.div>
                 <motion.div initial={{opacity: 0, x: 100}} transition={{...transition, duration: 2}} whileInView={{opacity:1 , x:0}}>
                 </motion.div>
-				<motion.img key={selected} initial={{opacity: 0, x: 100}} animate={{opacity: 1, x:0 }} exit={{opacity: 0, x:-100}} src={testimonialsData[selected].image} transition={transition} alt="" />
+				<motion.img className="testimonial-image"key={selected} initial={{opacity: 0, x: 100}} animate={{opacity: 1, x:0 }} exit={{opacity: 0, x:-100}} src={testimonialsData[selected].image} transition={transition} alt="" />
 
 				<div className="arrows">
 					<img

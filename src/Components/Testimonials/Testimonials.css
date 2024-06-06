@@ -47,9 +47,10 @@
     top: 1.5rem;
 }
 
-.right-t>:nth-child(1){
+.right-t>:nth-child(1) {
     position: absolute;
-    width: 17rem; height: 20rem;
+    width: 17rem;
+    height: 20rem;
     border: 2px solid orange;
     background: transparent;
     right: 9rem;
@@ -78,4 +79,44 @@
     position: relative;
     width: 1.5rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    .testimonials {
+        flex-direction: column;
+    }
+
+    .left-t>:nth-child(2),
+    .left-t>:nth-child(3) {
+        font-size: xx-large;
+    }
+
+    .right-t {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .right-t>div {
+        position: relative;
+        display: none;
+    }
+
+    .right-t>img {
+        top: 0;
+        position: relative !important;
+        align-self: center !important;
+        right:0rem;
+    }
+
+    .right-t>:last-child {
+        display: block;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
 }
