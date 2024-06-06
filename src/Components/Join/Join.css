@@ -16,8 +16,9 @@
 .left-j>hr {
     position: absolute;
     width: 10.5rem;
-    border: 2px;
-    margin: -15px;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
 }
 
 .left-j>div{
@@ -42,7 +43,7 @@
     background-color: transparent;
     border: none;
     outline: none;
-    color: var(--lightgray);
+    color: var(--lightgrayz);
 }
 
 ::placeholder {
